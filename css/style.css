@@ -11,34 +11,34 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+  display: block;
 }
 
 body {
-    background: RGBA(212, 249, 233, 0.7);
+  background: rgba(212, 249, 233, 0.7);
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
-P#description {
+p#description {
   text-align: center;
   font-weight: bold;
-  font-size: 1.5em; 
+  font-size: 1.5em;
 }
 
 .container {
-    width: 70%;
-    height: auto;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    min-width: 500px;
-    padding: 10px;
-    background-color: white;
+  width: 70%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  min-width: 500px;
+  padding: 10px;
+  background-color: white;
 }
 
 fieldset {
@@ -46,23 +46,23 @@ fieldset {
 }
 
 .rowTab {
-    display: flex;
+  display: flex;
 }
 
 .left-row {
-    display: inline-block;
-    width: 40%;
-    text-align: right;
-    margin: 10px;
-    vertical-align: top;
-    font-weight: bold;
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+  margin: 10px;
+  vertical-align: top;
+  font-weight: bold;
 }
 
 .right-row {
-    display: inline-block;
-    width: 40%;
-    margin: 10px;
-    vertical-align: top;
+  display: inline-block;
+  width: 40%;
+  margin: 10px;
+  vertical-align: top;
 }
 
 .input-field {
@@ -80,27 +80,27 @@ fieldset {
   margin-top: 15px;
 }
 
-textarea{
+textarea {
   height: 50px;
 }
 
 #submit {
-    display: block;
-    border: 1px solid black;
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  border: 1px solid black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (max-width: 767px) {
-    .rowTab {
-        flex-direction: column;
-    }
+  .rowTab {
+    flex-direction: column;
+  }
 
-    .left-row,
-    .right-row {
-        width: auto;
-        text-align: left;
-    }
+  .left-row,
+  .right-row {
+    width: auto;
+    text-align: left;
+  }
 }
