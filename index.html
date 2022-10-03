@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <header>
+        <h1 id="title">Survey Form</h1>
+    </header>
+    <main class="container">
+        <p id="description">Let us know how we can improve freeCodeCamp</p>
+        <form id="survey-form" action="index.html" method="post">
+            <fieldset>
+                <div class="rowTab">
+                    <div class="left-row">
+                        <label id="name-label">* Name:</label>
+                    </div>
+                    <div class="right-row">
+                        <input class="input-field" type="text" id="name" placeholder="Enter your name" required>
+                    </div>
+                </div>
+
+                <div class="rowTab">
+                    <div class="left-row">
+                        <label id="email-label">* Email:</label>
+                    </div>
+                    <div class="right-row">
+                        <input class="input-field" type="email" id="email" placeholder="Enter your Email" required>
+                    </div>
+                </div>
+
+                <div class="rowTab">
+                    <div class="left-row">
+                        <label id="number-label">* Age:</label>
+                    </div>
+                    <div class="right-row">
+                        <input class="input-field" type="number" id="number" placeholder="Age" min="15" max="60"
+                            required>
+                    </div>
+                </div>
+
+                <div class="rowTab">
+                    <div class="left-row">
+                        <label>Which option best describes your current role?</label>
+                    </div>
+                    <div class="right-row">
+                        <select id="dropdown">
+                            <option value="1">Student</option>
+                            <option value="2">Full Time Job</option>
+                            <option value="3">Full Time Learner</option>
+                            <option value="4">Prefer not to say</option>
+                            <option value="5">Other</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="rowTab">
+                    <div class="left-row">
+                        <label>How likely is that you would recommend ThinkConcept to a friend?:</label>
+                    </div>
+                    <div class="right-row">
+                        <input type="radio" name="refer" value="Definitely">Definitely<br>
+                        <input type="radio" name="refer" value="Maybe">Maybe<br>
+                        <input type="radio" name="refer" value="Not sure">Not sure
+                    </div>
+                </div>
+
+                <div class="rowTab">
+                    <div class="left-row">
+                        <label>What do you like most in ThinkConcept:</label>
+                    </div>
+                    <div class="right-row">
+                        <select id="dropdown">
+                            <option value="1">The indoor Design</option>
+                            <option value="2">Food Quality and Presentation</option>
+                            <option value="3">Service delivery</option>
+                            <option value="4">Price</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="rowTab">
+                    <div class="left-row">
+                        <label>Things that should be improved in the future(Check all that apply):</label>
+                    </div>
+                    <div class="right-row">
+                        <input type="checkbox" name="future-improvement" value="Option 1">Food Menu Options<br>
+                        <input type="checkbox" name="future-improvement" value="Option 2">Payment Options<br>
+                        <input type="checkbox" name="future-improvement" value="Option 3">Number of Outlets<br>
+                        <input type="checkbox" name="future-improvement" value="Option 4">Home Delivery Service<br>
+                        <input type="checkbox" name="future-improvement" value="Option 5">Order Time and Accuracy<br>
+                        <input type="checkbox" name="future-improvement" value="Option 6">Indoor layout<br>
+                        <input type="checkbox" name="future-improvement" value="Option 7">Indoor entertainment
+                        options<br>
+                        <input type="checkbox" name="future-improvement" value="Option 8">Overall Customer Service<br>
+                        <input type="checkbox" name="future-improvement" value="Option 9">Food Packing and
+                        Presentation<br>
+                        <input type="checkbox" name="future-improvement" value="Option 10">Support amenties
+                    </div>
+                </div>
+
+                <div class="rowTab">
+                    <div class="left-row">
+                        <label>Any Comments or Suggestions?:</label>
+                    </div>
+                    <div class="right-row">
+                        <textarea class="input-field">Enter your comment here...</textarea>
+                    </div>
+                </div>
+
+            </fieldset>
+            <button id="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
